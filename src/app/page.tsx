@@ -54,8 +54,12 @@ export default function Home() {
                     <div className="w-10 h-10 rounded-lg bg-brand/10 flex items-center justify-center mb-4">
                       <Icon className="w-5 h-5 text-brand-light" />
                     </div>
-                    <h3 className="font-semibold text-zinc-100 mb-2">{item.title}</h3>
-                    <p className="text-zinc-500 text-sm leading-relaxed">{item.description}</p>
+                    <h3 className="font-semibold text-zinc-100 mb-2">
+                      {item.title}
+                    </h3>
+                    <p className="text-zinc-500 text-sm leading-relaxed">
+                      {item.description}
+                    </p>
                   </div>
                 </AnimatedSection>
               );
@@ -76,7 +80,11 @@ export default function Home() {
                 Selected Projects
               </h2>
             </div>
-            <Button href="/projects" variant="outline" className="hidden sm:inline-flex group">
+            <Button
+              href="/projects"
+              variant="outline"
+              className="hidden sm:inline-flex group"
+            >
               All Projects
               <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
             </Button>
@@ -108,8 +116,8 @@ export default function Home() {
                   Let&apos;s build something great
                 </h2>
                 <p className="text-zinc-400 mb-8 max-w-xl mx-auto leading-relaxed">
-                  I&apos;m open to full-time roles, freelance contracts, and interesting
-                  technical collaborations.
+                  I&apos;m open to full-time roles, freelance contracts, and
+                  interesting technical collaborations.
                 </p>
                 <div className="flex flex-wrap gap-3 justify-center">
                   <Button href="/contact" size="lg">
@@ -127,4 +135,3 @@ export default function Home() {
     </>
   );
 }
-
