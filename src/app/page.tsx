@@ -38,7 +38,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center mb-14">
             <p className="text-xs font-semibold uppercase tracking-widest text-brand-light mb-3">
-              What I Do
+              What I do
             </p>
             <h2 className="text-3xl sm:text-4xl font-bold text-zinc-50 tracking-tight">
               Building for scale, designed for users
